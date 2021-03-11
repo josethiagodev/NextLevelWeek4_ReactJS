@@ -1,0 +1,10 @@
+.countdownContainer { font-family: 'Rajdhani', sans-serif; font-weight: 600; color: var(--title); width: 100%; height: auto; overflow: hidden; border-radius: 12px; background-color: #FFFFFF; padding: 1.5rem; }
+.countdownContainer .counterNumber { float: left; width: 45%; height: auto; overflow: hidden; box-shadow: 0 0 50px rgba(0, 0, 0, 0.20); border-radius: 6px; font-size: 8.5rem; }
+.countdownContainer .counterNumber span:first-child { display: flex; justify-content: space-evenly; align-items: center; float: left; width: 50%; height: 9.5rem; overflow: hidden; line-height: normal; }
+.countdownContainer .counterNumber span:last-child { display: flex; justify-content: space-evenly; align-items: center; float: left; width: 50%; height: 9.5rem; overflow: hidden; line-height: normal; }
+.countdownContainer .centerPoint { display: flex; justify-content: center; align-items: center; float: left; width: 10%; height: 9rem; overflow: hidden; padding: 0; font-size: 5.5rem; text-align: center; }
+.countdownContainer .countdownBtn { transition: background-color 0.3s; float: left; width: 100%; height: auto; overflow: hidden; margin-top: 1.5rem; padding: 1.15rem 0; border: 0; outline: none; line-height: normal; border-radius: 6px; text-align: center; background-color: var(--blue); color: var(--white); font-size: 1.4rem; font-family: 'Rajdhani', sans-serif; font-weight: 700; }
+.countdownContainer .countdownBtn:not(:disabled):hover { background-color: var(--blue-dark); }
+.countdownContainer .countdownBtnActive { background-color: var(--red); color: var(--white); }
+.countdownContainer .countdownBtnActive:not(:disabled):hover { background-color: var(--red); color: var(--white); }
+.countdownContainer .countdownBtn:disabled { cursor: not-allowed; background-color: #dfe6e9; color: var(--text); }

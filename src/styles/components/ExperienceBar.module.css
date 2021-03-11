@@ -1,0 +1,5 @@
+.experienceBar { position: fixed; top: 2rem; left: 2rem; display: flex; align-items: center; justify-content: center; width: 95%; margin: 0 auto; padding: 1rem 1.5rem 2.25rem 1.5rem; background-color: #212025; color: #FFFFFF; border-radius: 8px; }
+.experienceBar .valueXP { font-size: 1rem; font-weight: 500; }
+.experienceBar > .progress { width: 100%; flex: 1; height: 5px; border-radius: 5px; background-color: var(--gray-line); margin: 0 1.5rem; position: relative; }
+.experienceBar > .progress > div { height: 4px; border-radius: 5px; background-color: var(--green); }
+.experienceBar > .progress .current { position: absolute; top: 16px; transform: translateX(-50%); color: var(--green); font-size: 0.95rem; font-weight: 700; }

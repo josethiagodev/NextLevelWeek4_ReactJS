@@ -1,0 +1,7 @@
+.overlayModal { display: flex; justify-content: center; align-items: center; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.75); }
+.overlayModal .containerModal { background: var(--white); width: 100%; max-width: 500px; height: auto; overflow: hidden; padding: 2.5rem 1.5rem; border-radius: 10px; box-shadow: 0 0 60px rgba(247, 77, 77, 0.05); text-align: center; position: relative; }
+.overlayModal .containerModal header { font-size: 9rem; font-weight: 600; color: var(--blue); background: url('/icons/levelup.svg') no-repeat center; background-size: contain; }
+.overlayModal .containerModal strong { display: block; font-size: 2rem; color: var(--title); margin: 0.5rem auto; }
+.overlayModal .containerModal p { font-size: 1.15rem; color: var(--text); }
+.overlayModal .containerModal button { position: absolute; top: 1rem; right: 1rem; background: transparent; border: 0; font-size: 0; }
+

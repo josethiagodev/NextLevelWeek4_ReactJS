@@ -1,0 +1,3 @@
+.completedChallengesContainer { display: flex; align-items: center; justify-content: space-between; margin: 1.5rem 0; padding: 1.5rem; border-bottom: 1px solkid #d7d8da; font-weight: 500; background-color: #FFFFFF; border-radius: 6px; }
+.completedChallengesContainer span:first-of-type { font-size: 1.2rem; }
+.completedChallengesContainer span:last-of-type { font-size: 1.4rem; font-weight: 700; }

@@ -1,0 +1,27 @@
+[
+  {
+    "type": "body", 
+    "description": "Estique seus braços até a ponta do seus pés para alongar, fique na posição totalmente curvada até finalizar a contagem do cronômetro", 
+    "amount": 80
+  },
+  {
+    "type": "body", 
+    "description": "Mantenha um braço reto e o outro esticado", 
+    "amount": 60
+  },
+  {
+    "type": "body", 
+    "description": "Cruze os dedos da mão e alongue deixando os braços esticados", 
+    "amount": 70
+  },
+  {
+    "type": "body", 
+    "description": "Coloque uma mão na cabeça e puxa para o outro lado", 
+    "amount": 100
+  },
+  {
+    "type": "eye", 
+    "description": "Movimente seus olhos olhando para cima e para baixo", 
+    "amount": 30
+  }
+]
